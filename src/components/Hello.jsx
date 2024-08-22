@@ -1,8 +1,9 @@
 
 
-function Hello(){
+function Hello({name, phone}){
+
     return (
-        <h1>Hello from Hello Component</h1>
+        <h1>Hello {name} {phone}</h1>
     )
 }
 

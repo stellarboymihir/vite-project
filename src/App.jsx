@@ -6,8 +6,8 @@ function App() {
 
   return (
    <>
-   <Hello/>
-   <Bye/>
+   <Hello person= {myObj} />
+   
    </>
   )
 }
